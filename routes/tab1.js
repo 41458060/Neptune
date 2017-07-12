@@ -16,6 +16,7 @@ router.get('/getInfo', checkLogin, function (req, res, next) {
                 // req.flash('error','用户信息不存在，请填写并保存');
             }else {
                 var resJSON = {
+
                     code: 0,
                     errMsg: '',
                     data: {
